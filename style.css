@@ -11,7 +11,7 @@ ul li a {
     margin-left: 0px;
     background-color: azure;
     border-radius: 20px;
-    font-size: 30px;
+    font-size: 26px;
 }
 .index_back {
     background-image: url("istockphoto-904172104-612x612.jpg");
@@ -80,8 +80,8 @@ p1 {
     margin-bottom: 15px;
     border-radius: 8px;
 }
-.login button {
-    background-color: darkgray;
+.login form button {
+    background-color: rgb(77, 75, 75);
 }
 z {
     font-size: 80px;
@@ -101,6 +101,13 @@ l1 {
    background-color: wheat;
     padding: 10PX 10PX;
     color: rgb(18, 16, 16);
+    border-radius: 10px; 
+    
+}
+.nav-3:hover{
+   background-color:slategrey;
+    padding: 10PX 10PX;
+    color: rgb(183, 182, 182);
     border-radius: 10px; 
     
 }
@@ -137,14 +144,15 @@ r1 {
     border-color: black;
 }
 .pla img{
-    width: 300px;
+    width: 486px;
     height: 300px;
     object-fit: cover;
-    border-radius: 500px;
+    border-radius: 12px;
 }
 .pla k1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    text-align: center;
 }
 .places {
     background-image: url("images.jpeg");
