@@ -6,24 +6,23 @@ ul li {
 }
 ul li a {
     text-decoration: none;
-    color:black;
+    color:rgb(29, 27, 27);
     padding: 15px;
     margin-left: 0px;
+    background-color: azure;
+    border-radius: 20px;
+    font-size: 30px;
 }
 .index_back {
     background-image: url("istockphoto-904172104-612x612.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 1500px;
-    height: 700px;
+    height: 800px;
+    overflow-x: hidden;
+    overflow-y: hidden;
  } 
-.nav-1:hover{
-    background-color: wheat;
-    padding: 10PX 10PX;
-    color: black;
-    border-radius: 10px;
-}
-h1{
+ h1{
     font-size: 100px;
     margin-top: 60px;
 }
@@ -31,47 +30,125 @@ h3 {
     font-size: 28px;
 
 }
+.nav-1:hover{
+    background-color: wheat;
+    padding: 10PX 10PX;
+    color: black;
+    border-radius: 10px;
+}
 .image1 img {
- width: 540px;
- height: 540px;
- gap: 20px;
- border-radius: 30px;
- justify-content: center;
- align-items: center;
- flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-image: url();
+
 }
-.image1 img:hover {
-   transform: scale(1.1);
-   border: 2px; 
-}
-.places {
-    background-color: aqua;
-}
-.about {
+
+.bod {
     font-size: 40px;
-    background-color: blueviolet;
+    background-image: url("images (2).jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
 }
-d {
-    font-size: 80px;
+a {
+    font-size: 30px;
+    color: aliceblue;
     }
+p1 {
+    color: antiquewhite;
+    font-size: 26px;
+}
 .symbol img {
     width: 50px;
     height: 50px;
-    background-color: aquamarine;
 }
-c {
-    font-size: 50px;
-}
-.contact {
-    background-color: aquamarine;
-}
-.info {
-    background-color: aquamarine;
-}
-.login {
+
+
+
+.login form  {
     width: 100;
-    display: inline-block;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.login input {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+.login button {
+    background-color: darkgray;
 }
 z {
     font-size: 80px;
+    color:lightskyblue;
+}
+.log {
+    background-image: url("pngtree-soft-pastel-floral-design-light-blue-background-image_16896113.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    overflow-x: hidden;
+}
+l1 {
+    font-size: 35px;
+}
+.nav-2:hover{
+   background-color: wheat;
+    padding: 10PX 10PX;
+    color: rgb(18, 16, 16);
+    border-radius: 10px; 
+    
+}
+c {
+    font-size: 30px;
+    
+}
+.info {
+    background-image: url("1280w-6Xkt_lbGKbE.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1500px;
+    height: 800px;
+    overflow-x: hidden;
+}
+x {
+    font-size: 80px;
+}
+d {
+font-size: 85px;
+}
+r1 {
+    font-size: 50px;
+}
+.plac {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.pla {
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: rgb(84, 134, 203);
+    border-color: black;
+}
+.pla img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 500px;
+}
+.pla k1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.places {
+    background-image: url("images.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
 }
